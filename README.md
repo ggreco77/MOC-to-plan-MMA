@@ -10,7 +10,7 @@ Packages required to reproduce the tutorial are
 * [astroplan](https://astroplan.readthedocs.io/en/latest/installation.html)
 * [ipyaladin](https://github.com/cds-astro/ipyaladin)
 
-The tutorial is tested in Python 3.8.5 with the module versions: mocpy 0.10.0, cdshealpix 0.6.1, astropy 5.0 and astroplan 0.8 and ipyaladin.
+The [tutorial](https://github.com/ggreco77/MOC-to-plan-MMA/blob/main/Multi%20Order%20Coverage%20data%20structure%20to%20plan%20multi-messenger%20observations.ipynb) is tested in Python 3.8.5 with the module versions: mocpy 0.10.0, cdshealpix 0.6.1, astropy 5.0 and astroplan 0.8 and ipyaladin.
 
 The results can be visualized in the [Aladin Desktop Software](https://aladin.u-strasbg.fr/AladinDesktop/). To install it, follow the instructions below.
 
