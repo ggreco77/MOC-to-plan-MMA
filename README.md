@@ -9,4 +9,13 @@ Packages required to reproduce the tutorial are
 * [astropy](https://docs.astropy.org/en/stable/install.html)
 * [astroplan](https://astroplan.readthedocs.io/en/latest/installation.html)
 * [ipyaladin](https://github.com/cds-astro/ipyaladin)
+!python3 -m pip install mocpy
+The tutorial is tested in Python 3.8.5 with the module versions: mocpy 0.10.0, cdshealpix 0.6.1, astropy 5.0 and astroplan 0.8 and ipyaladin.
 
+The results can be visualized in the [Aladin Desktop Software](https://aladin.u-strasbg.fr/AladinDesktop/). To install it, follow the instructions below.
+
+Download the [Aladin.jar](https://aladin.u-strasbg.fr/java/Aladin.jar) from the [Aladin download page](https://aladin.u-strasbg.fr/java/nph-aladin.pl?frame=downloading). Execute it from a terminal by typing:
+
+     $ java -Xmx2g -jar Aladin.jar
+     
+The flag -Xmx<ammount of memory> specifies the maximum memory allocation pool for a JVM. Here 2GB of memory is allocated. For GW sky localizations with nside=2048, increase the memory allocated up to 3GB, -Xmx3g.
