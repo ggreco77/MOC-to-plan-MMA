@@ -9,8 +9,9 @@ Packages required to reproduce the tutorial are
 * [astropy](https://docs.astropy.org/en/stable/install.html)
 * [astroplan](https://astroplan.readthedocs.io/en/latest/installation.html)
 * [ipyaladin](https://github.com/cds-astro/ipyaladin)
+* [healpy](https://pypi.org/project/healpy/)
 
-The [tutorial](https://github.com/ggreco77/MOC-to-plan-MMA/blob/main/Multi%20Order%20Coverage%20data%20structure%20to%20plan%20multi-messenger%20observations.ipynb) is tested in Python 3.8.5 with the module versions: mocpy 0.10.0, cdshealpix 0.6.1, astropy 5.0 and astroplan 0.8 and ipyaladin 0.1.9. 
+The [tutorial](https://github.com/ggreco77/MOC-to-plan-MMA/blob/main/Multi%20Order%20Coverage%20data%20structure%20to%20plan%20multi-messenger%20observations.ipynb) is tested in Python 3.8.5 with the module versions: mocpy 0.10.0, cdshealpix 0.6.1, astropy 5.0 and astroplan 0.8 and ipyaladin 0.1.9 and healpy 1.15.0. 
 For Installing packages using pip and virtual environments, follow the instruction in the  Python Packaging User Guide [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 ### Aladin Desktop Software
