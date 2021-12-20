@@ -1,0 +1,6 @@
+mocpy
+cdshealpix
+astropy
+astroplan
+ipyaladin
+healpy
